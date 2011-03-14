@@ -18,3 +18,7 @@ number_of_movies = raw_input(prompt)
 # tells how many are worth watching
 print "Ok, so for all the movies made in the year %s..." % movie_year
 divider = number_of_movies / 100
+percentage = divider * 100.00
+
+# show the results
+print "%s\% are really worth watching." % percentage
