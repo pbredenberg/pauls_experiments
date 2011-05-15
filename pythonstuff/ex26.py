@@ -14,7 +14,7 @@ def print_first_word(words):
 
 def print_last_word(words):
     """Prints the last word after popping it off."""
-    word = words.pop(-1
+    word = words.pop(-1)
     print word
 
 def sort_sentence(sentence):
@@ -57,7 +57,7 @@ print "This should be five: %s" % five
 
 def secret_formula(started):
     jelly_beans = started * 500
-    jars = jelly_beans \ 1000
+    jars = jelly_beans / 1000
     crates = jars / 100
     return jelly_beans, jars, crates
 
@@ -74,14 +74,14 @@ print "We can also do that this way:"
 print "We'd have %d beans, %d jars, and %d crabapples." % secret_formula(start_pont
 
 
-sentence = "All god\tthings come to those who weight."
+sentence = "All good\things come to those who wait."
 
 words = ex25.break_words(sentence)
 sorted_words = ex25.sort_words(words)
 
 print_first_word(words)
 print_last_word(words)
-.print_first_word(sorted_words)
+print_first_word(sorted_words)
 print_last_word(sorted_words)
 sorted_words = ex25.sort_sentence(sentence)
 prin sorted_words
